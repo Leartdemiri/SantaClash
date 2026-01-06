@@ -1,0 +1,239 @@
+\documentclass[11pt,a4paper]{article} % Définition du type de document : article A4 avec police 11pt
+
+
+
+%-------------------------------------------------------------------------------------
+
+% Informations générales du document
+
+%-------------------------------------------------------------------------------------
+
+\def\myauthor{Leart Demiri} % Auteur du document
+
+\def\myemail{leart.dmr2@eduge.ch} % Adresse email de contact
+
+\def\mytitle{Documentation code source} % Titre principal du document
+
+\def\mysubtitle{PDF C\# Santa Clash} % Sous-titre du document
+
+\date{\today} % Date automatique (jour de compilation)
+
+
+
+%-------------------------------------------------------------------------------------
+
+% Packages essentiels pour le document
+
+%-------------------------------------------------------------------------------------
+
+\usepackage[utf8]{inputenc} % Encodage UTF-8 pour les accents
+
+\usepackage[T1]{fontenc} % Encodage de police (accents + césure correcte)
+
+\usepackage[french]{babel} % Langue française (traductions automatiques)
+
+\usepackage[fr-FR]{datetime2} % Format français pour les dates
+
+\usepackage{lmodern} % Police plus lisible que Computer Modern
+
+\usepackage[urlcolor=blue,linkcolor=blue,colorlinks=true]{hyperref} % Liens hypertextes stylisés
+
+\usepackage{listings} % Pour insérer du code source syntaxé
+
+\usepackage{color,xcolor} % Pour la coloration syntaxique
+
+\usepackage{graphicx} % Pour insérer des images
+
+\usepackage{parskip} % Ajout d’un espacement entre les paragraphes
+
+\usepackage{fancyvrb} % Verbatim avancé (code brut dans minipages)
+
+\usepackage{varioref} % Pour utiliser \vref et obtenir des références comme "voir page X"
+
+
+
+%-------------------------------------------------------------------------------------
+
+% Choix de la police : Helvetica (sans serif)
+
+%-------------------------------------------------------------------------------------
+
+\usepackage{helvet}
+
+\renewcommand{\familydefault}{\sfdefault} % Définit Helvetica comme police par défaut
+
+
+
+%-------------------------------------------------------------------------------------
+
+% Configuration des listings (code source) par défaut
+
+%-------------------------------------------------------------------------------------
+
+%\input{inc_listings_php} % (décommenter pour PHP)
+
+\input{inc_listings_csharp} % Configuration des listings pour du code C#
+
+
+
+%-------------------------------------------------------------------------------------
+
+% Mise en page
+
+%-------------------------------------------------------------------------------------
+
+\usepackage[left=2.00cm, right=2.00cm, top=2.00cm, bottom=2.00cm]{geometry} % Définition des marges
+
+
+%-------------------------------------------------------------------------------------
+
+% En-têtes et pieds de page personnalisés
+
+%-------------------------------------------------------------------------------------
+
+\usepackage{lastpage} % Pour afficher le nombre total de pages
+
+\usepackage{fancyhdr}
+
+\pagestyle{fancy}
+
+\fancyhf{} % Réinitialise les en-têtes/pieds par défaut
+
+
+
+% En-têtes
+
+\fancyhead[L]{\mytitle} % Gauche : titre perso
+
+\fancyhead[C]{} % Centre : modifiable
+
+\fancyhead[R]{\leftmark} % Droite : nom de la section
+
+
+
+% Pieds de page
+
+\fancyfoot[L]{\textit{\myauthor}} % Pied gauche
+
+\fancyfoot[C]{\tiny{-~\DTMnow~-}} % Pied centre : date + heure
+
+\fancyfoot[R]{\thepage~/~\pageref{LastPage}} % Pied droit : x / y pages
+
+
+
+% Lignes de séparation dans les en-têtes/pieds
+
+\renewcommand{\headrulewidth}{0.4pt}
+
+\renewcommand{\footrulewidth}{0.4pt}
+
+
+
+%-------------------------------------------------------------------------------------
+
+% Début du document
+
+%-------------------------------------------------------------------------------------
+
+\begin{document}
+
+
+
+
+% Table des matières générée automatiquement
+
+\tableofcontents
+
+
+\vspace{1cm}
+
+\lstlistoflistings
+
+
+\newpage
+
+\section{Structure projet P\_SantaClash}
+
+Le projet est organisé dans une arborescence de dossiers.
+
+
+
+\section{Code source}
+
+
+\subsection{Program.cs}
+
+\lstinputlisting[caption=Program.cs]{P\_SantaClash/Program.cs}
+
+
+\lstinputlisting[caption=Game1.cs]{P\_SantaClash/Game1.cs}
+
+
+\subsection{Class}
+
+\subsubsection{Enemy}
+
+\lstinputlisting[caption=Enemy.cs]{P\_SantaClash/Enemy.cs}
+
+\subsubsection{GameObject}
+
+\lstinputlisting[caption=GameObject.cs]{P\_SantaClash/GameObject.cs}
+
+\subsubsection{GameStateManager}
+
+\lstinputlisting[caption=GameStateManager.cs]{P\_SantaClash/GameStateManager.cs}
+
+\subsubsection{IDamageable}
+
+\lstinputlisting[caption=IDamageable.cs]{P\_SantaClash/IDamageable.cs}
+
+\subsubsection{Player}
+
+\lstinputlisting[caption=Player.cs]{P\_SantaClash/Player.cs}
+
+\subsubsection{Projectile}
+
+\lstinputlisting[caption=Projectile.cs]{P\_SantaClash/Projectile.cs}
+
+\subsubsection{Santa}
+
+\lstinputlisting[caption=Santa.cs]{P\_SantaClash/Santa.cs}
+
+\subsubsection{WaveManager}
+
+\lstinputlisting[caption=WaveManager.cs]{P\_SantaClash/WaveManager.cs}
+
+\subsection{TestCases et Modules}
+
+\subsubsection{PlayerStats}
+
+\lstinputlisting[caption=PlayerStats.cs]{P\_SantaClash.Core/PlayerStats.cs}
+
+\subsubsection{StatsService}
+
+\lstinputlisting[caption=StatsService.cs]{P\_SantaClash.Core/StatsService.cs}
+
+\subsubsection{AccuracyTests}
+
+\lstinputlisting[caption=AccuracyTests.cs]{P\_SantaClash.Tests/AccuracyTests.cs}
+
+\subsubsection{RankingTests}
+
+\lstinputlisting[caption=RankingTests.cs]{P\_SantaClash.Tests/RankingTests.cs}
+
+
+%---------------------------------------------------------------------------------
+
+% Annexe : table des listings
+
+%---------------------------------------------------------------------------------
+
+\newpage
+
+\section{Annexes}
+
+\listoffigures
+\thepage~/~\pageref{LastPage}
+
+
+\end{document}

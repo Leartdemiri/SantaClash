@@ -125,7 +125,7 @@ namespace P_SantaClash
             var k = Keyboard.GetState();
             var gp = GamePad.GetState(PlayerIndex.One);
 
-            Window.Title = "Santa Clash — MENU (Enter / Start pour jouer)";
+            Window.Title = "Santa Clashs MENU (Enter / Start pour jouer)";
             if (k.IsKeyDown(Keys.Enter) || gp.Buttons.Start == ButtonState.Pressed)
             {
                 StartNewGame();
@@ -263,7 +263,7 @@ namespace P_SantaClash
             KeyboardState k = Keyboard.GetState();
             GamePadState gp = GamePad.GetState(PlayerIndex.One);
 
-            Window.Title = $"Santa Clash — GAME OVER | {_gameOverText} (R pour rejouer / Esc pour quitter)";
+            Window.Title = $"Santa Clash GAME OVER | {_gameOverText} (R pour rejouer / Esc pour quitter)";
             if (k.IsKeyDown(Keys.R) || gp.Buttons.Start == ButtonState.Pressed)
                 _state.GoToMenu();
         }
