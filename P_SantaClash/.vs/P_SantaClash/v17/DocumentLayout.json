@@ -3,12 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\leart.dmr2\\Documents\\CFPT\\2025-2026\\ATPROG\\MardiAprem\\SantaClash\\P_SantaClash\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{78683534-F6D8-4707-94F9-8F32ECD0F595}|P_SantaClash\\P_SantaClash.csproj|c:\\users\\leart.dmr2\\documents\\cfpt\\2025-2026\\atprog\\mardiaprem\\santaclash\\p_santaclash\\p_santaclash\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{78683534-F6D8-4707-94F9-8F32ECD0F595}|P_SantaClash\\P_SantaClash.csproj|solutionrelative:p_santaclash\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F64CA809-02E1-7134-B3F7-D2A8BAD973EC}|P_SantaClash.Tests\\P_SantaClash.Tests.csproj|c:\\users\\leart.dmr2\\documents\\cfpt\\2025-2026\\atprog\\mardiaprem\\santaclash\\p_santaclash\\p_santaclash.tests\\accuracytests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F64CA809-02E1-7134-B3F7-D2A8BAD973EC}|P_SantaClash.Tests\\P_SantaClash.Tests.csproj|solutionrelative:p_santaclash.tests\\accuracytests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F697819-4D88-FCD6-E0A3-6BC41CEEAE16}|P_SantaClash.Core\\P_SantaClash.Core.csproj|c:\\users\\leart.dmr2\\documents\\cfpt\\2025-2026\\atprog\\mardiaprem\\santaclash\\p_santaclash\\p_santaclash.core\\statsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F697819-4D88-FCD6-E0A3-6BC41CEEAE16}|P_SantaClash.Core\\P_SantaClash.Core.csproj|solutionrelative:p_santaclash.core\\statsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F697819-4D88-FCD6-E0A3-6BC41CEEAE16}|P_SantaClash.Core\\P_SantaClash.Core.csproj|c:\\users\\leart.dmr2\\documents\\cfpt\\2025-2026\\atprog\\mardiaprem\\santaclash\\p_santaclash\\p_santaclash.core\\playerstats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F697819-4D88-FCD6-E0A3-6BC41CEEAE16}|P_SantaClash.Core\\P_SantaClash.Core.csproj|solutionrelative:p_santaclash.core\\playerstats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F64CA809-02E1-7134-B3F7-D2A8BAD973EC}|P_SantaClash.Tests\\P_SantaClash.Tests.csproj|c:\\users\\leart.dmr2\\documents\\cfpt\\2025-2026\\atprog\\mardiaprem\\santaclash\\p_santaclash\\p_santaclash.tests\\rankingtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F64CA809-02E1-7134-B3F7-D2A8BAD973EC}|P_SantaClash.Tests\\P_SantaClash.Tests.csproj|solutionrelative:p_santaclash.tests\\rankingtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{78683534-F6D8-4707-94F9-8F32ECD0F595}|P_SantaClash\\P_SantaClash.csproj|c:\\users\\leart.dmr2\\documents\\cfpt\\2025-2026\\atprog\\mardiaprem\\santaclash\\p_santaclash\\p_santaclash\\game1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{78683534-F6D8-4707-94F9-8F32ECD0F595}|P_SantaClash\\P_SantaClash.csproj|solutionrelative:p_santaclash\\game1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78683534-F6D8-4707-94F9-8F32ECD0F595}|P_SantaClash\\P_SantaClash.csproj|c:\\users\\leart.dmr2\\documents\\cfpt\\2025-2026\\atprog\\mardiaprem\\santaclash\\p_santaclash\\p_santaclash\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78683534-F6D8-4707-94F9-8F32ECD0F595}|P_SantaClash\\P_SantaClash.csproj|solutionrelative:p_santaclash\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{78683534-F6D8-4707-94F9-8F32ECD0F595}|P_SantaClash\\P_SantaClash.csproj|c:\\users\\leart.dmr2\\documents\\cfpt\\2025-2026\\atprog\\mardiaprem\\santaclash\\p_santaclash\\p_santaclash\\santa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -22,24 +38,76 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PlayerStats.cs",
+              "DocumentMoniker": "C:\\Users\\leart.dmr2\\Documents\\CFPT\\2025-2026\\ATPROG\\MardiAprem\\SantaClash\\P_SantaClash\\P_SantaClash.Core\\PlayerStats.cs",
+              "RelativeDocumentMoniker": "P_SantaClash.Core\\PlayerStats.cs",
+              "ToolTip": "C:\\Users\\leart.dmr2\\Documents\\CFPT\\2025-2026\\ATPROG\\MardiAprem\\SantaClash\\P_SantaClash\\P_SantaClash.Core\\PlayerStats.cs",
+              "RelativeToolTip": "P_SantaClash.Core\\PlayerStats.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-06T12:31:07.4Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "StatsService.cs",
+              "DocumentMoniker": "C:\\Users\\leart.dmr2\\Documents\\CFPT\\2025-2026\\ATPROG\\MardiAprem\\SantaClash\\P_SantaClash\\P_SantaClash.Core\\StatsService.cs",
+              "RelativeDocumentMoniker": "P_SantaClash.Core\\StatsService.cs",
+              "ToolTip": "C:\\Users\\leart.dmr2\\Documents\\CFPT\\2025-2026\\ATPROG\\MardiAprem\\SantaClash\\P_SantaClash\\P_SantaClash.Core\\StatsService.cs",
+              "RelativeToolTip": "P_SantaClash.Core\\StatsService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-06T12:31:06.007Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RankingTests.cs",
+              "DocumentMoniker": "C:\\Users\\leart.dmr2\\Documents\\CFPT\\2025-2026\\ATPROG\\MardiAprem\\SantaClash\\P_SantaClash\\P_SantaClash.Tests\\RankingTests.cs",
+              "RelativeDocumentMoniker": "P_SantaClash.Tests\\RankingTests.cs",
+              "ToolTip": "C:\\Users\\leart.dmr2\\Documents\\CFPT\\2025-2026\\ATPROG\\MardiAprem\\SantaClash\\P_SantaClash\\P_SantaClash.Tests\\RankingTests.cs",
+              "RelativeToolTip": "P_SantaClash.Tests\\RankingTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-06T12:31:01.728Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "AccuracyTests.cs",
+              "DocumentMoniker": "C:\\Users\\leart.dmr2\\Documents\\CFPT\\2025-2026\\ATPROG\\MardiAprem\\SantaClash\\P_SantaClash\\P_SantaClash.Tests\\AccuracyTests.cs",
+              "RelativeDocumentMoniker": "P_SantaClash.Tests\\AccuracyTests.cs",
+              "ToolTip": "C:\\Users\\leart.dmr2\\Documents\\CFPT\\2025-2026\\ATPROG\\MardiAprem\\SantaClash\\P_SantaClash\\P_SantaClash.Tests\\AccuracyTests.cs",
+              "RelativeToolTip": "P_SantaClash.Tests\\AccuracyTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-06T12:30:56.722Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Player.cs",
               "DocumentMoniker": "C:\\Users\\leart.dmr2\\Documents\\CFPT\\2025-2026\\ATPROG\\MardiAprem\\SantaClash\\P_SantaClash\\P_SantaClash\\Player.cs",
               "RelativeDocumentMoniker": "P_SantaClash\\Player.cs",
               "ToolTip": "C:\\Users\\leart.dmr2\\Documents\\CFPT\\2025-2026\\ATPROG\\MardiAprem\\SantaClash\\P_SantaClash\\P_SantaClash\\Player.cs",
               "RelativeToolTip": "P_SantaClash\\Player.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAA4wCAAAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAAwGMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-06T12:00:15.861Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "Santa.cs",
               "DocumentMoniker": "C:\\Users\\leart.dmr2\\Documents\\CFPT\\2025-2026\\ATPROG\\MardiAprem\\SantaClash\\P_SantaClash\\P_SantaClash\\Santa.cs",
               "RelativeDocumentMoniker": "P_SantaClash\\Santa.cs",
@@ -51,7 +119,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "Game1.cs",
               "DocumentMoniker": "C:\\Users\\leart.dmr2\\Documents\\CFPT\\2025-2026\\ATPROG\\MardiAprem\\SantaClash\\P_SantaClash\\P_SantaClash\\Game1.cs",
               "RelativeDocumentMoniker": "P_SantaClash\\Game1.cs",

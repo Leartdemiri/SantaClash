@@ -1,9 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36623.8 d17.14
+VisualStudioVersion = 17.14.36623.8
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P_SantaClash", "P_SantaClash\P_SantaClash.csproj", "{78683534-F6D8-4707-94F9-8F32ECD0F595}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P_SantaClash.Core", "P_SantaClash.Core\P_SantaClash.Core.csproj", "{2F697819-4D88-FCD6-E0A3-6BC41CEEAE16}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P_SantaClash.Tests", "P_SantaClash.Tests\P_SantaClash.Tests.csproj", "{F64CA809-02E1-7134-B3F7-D2A8BAD973EC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{78683534-F6D8-4707-94F9-8F32ECD0F595}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{78683534-F6D8-4707-94F9-8F32ECD0F595}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{78683534-F6D8-4707-94F9-8F32ECD0F595}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F697819-4D88-FCD6-E0A3-6BC41CEEAE16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F697819-4D88-FCD6-E0A3-6BC41CEEAE16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F697819-4D88-FCD6-E0A3-6BC41CEEAE16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F697819-4D88-FCD6-E0A3-6BC41CEEAE16}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F64CA809-02E1-7134-B3F7-D2A8BAD973EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F64CA809-02E1-7134-B3F7-D2A8BAD973EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F64CA809-02E1-7134-B3F7-D2A8BAD973EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F64CA809-02E1-7134-B3F7-D2A8BAD973EC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
