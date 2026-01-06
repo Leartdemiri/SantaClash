@@ -1,50 +1,82 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
-using Microsoft.Xna.Framework.Input;
+using System;
 
 namespace P_SantaClash
 {
-    public class Santa
+    public class Santa : GameObject, IDamageable
     {
-        public Vector2 Position { get; set; }
-        public int MaxHealth { get; set; }
-        public int CurrentHealth { get; set; }
-        public Texture2D texture;
+        public int MaxHealth { get; }
+        public int CurrentHealth { get; private set; }
 
-        // => so it uses actual class stuff and (int) to convert from float to int 
-        public Rectangle Hitbox => new Rectangle((int)Position.X, (int)Position.Y, texture.Width, texture.Height); // position of the santa to the size of the texture of santa
+        private readonly Texture2D _texture;
+        private readonly Vector2 _targetPosition;
+        private readonly Random _random = new Random();
 
+        private float _attractionStrength = 50f;
+        private float _noiseStrength = 20f;
+        private float _damping = 0.6f;
 
-        public Santa(Vector2 position, int maxHealth, Texture2D texture)
+        public Rectangle Hitbox => new Rectangle((int)Position.X, (int)Position.Y, _texture.Width, _texture.Height);
+
+        public Santa(Vector2 position, int maxHealth, Texture2D texture, Vector2? targetPosition = null) : base(position, Vector2.Zero)
         {
-            Position = position;
             MaxHealth = maxHealth;
             CurrentHealth = maxHealth;
-            this.texture = texture;
+            _texture = texture;
+            _targetPosition = targetPosition ?? position; // centre de la map
         }
+        
 
-        public void TakeDamage(int dmg){
-
-            if(this.CurrentHealth <= 0){
-                this.CurrentHealth = 0; // so that it doesnt show bugged
-                return;
-            }else{
-                this.CurrentHealth -= dmg;
-            }
-        }
-
-        public void Draw(SpriteBatch spriteBatch)
+        // Gestions des dégats
+        public void ApplyDamage(int amount) => TakeDamage(amount);
+        public void TakeDamage(int dmg)
         {
-            if(this.CurrentHealth <= 0){
-                return; // so that it doesnt draw if dead
-            }
+            if (!IsAlive) return;
 
-            spriteBatch.Draw(texture, Position, Color.White);
+            CurrentHealth -= dmg;
+            if (CurrentHealth <= 0)
+            {
+                CurrentHealth = 0;
+                IsAlive = false;
+            }
+        }
+
+        public override void Update(GameTime gameTime)
+        {
+            if (!IsAlive) return;
+
+            float dt = (float)gameTime.ElapsedGameTime.TotalSeconds; 
+
+            // Mouvement chaotique
+
+            // bougers vers cible
+            Vector2 toTarget = _targetPosition - Position;
+            if (toTarget != Vector2.Zero)
+                toTarget.Normalize();
+
+            // bruit aléatoire
+            float noiseX = (float)(_random.NextDouble() - 0.5f);
+            float noiseY = (float)(_random.NextDouble() - 0.5f);
+            Vector2 noise = new Vector2(noiseX, noiseY);
+            if (noise != Vector2.Zero)
+                noise.Normalize();
+
+            // vitesse et accelerations
+            Vector2 acceleration = toTarget * _attractionStrength + noise * _noiseStrength;
+
+            // lent? plus vite.
+            if (Velocity.Length() < 15f)
+                Velocity += noise * 30f;
+
+            Velocity *= _damping; // amortir
+            Position += Velocity * dt; 
+        }
+
+        public override void Draw(SpriteBatch spriteBatch)
+        {
+            if (!IsAlive) return;
+            spriteBatch.Draw(_texture, Position, Color.White);
         }
     }
 }
